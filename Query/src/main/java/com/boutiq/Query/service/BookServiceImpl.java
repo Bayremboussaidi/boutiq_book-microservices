@@ -1,14 +1,15 @@
-package com.example.Query.service;
+package com.boutiq.Query.service;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.example.Query.model.Book;
-import com.example.Query.repository.BookRepository;
+import com.boutiq.Query.model.Book;
+import com.boutiq.Query.repository.BookRepository;
 
-import java.util.List;
 
 @Service
 public class BookServiceImpl implements BookService {

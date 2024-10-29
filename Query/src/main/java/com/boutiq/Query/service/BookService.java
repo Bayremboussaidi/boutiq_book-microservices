@@ -5,7 +5,8 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import com.example.Query.model.Book;
+import com.boutiq.Query.model.Book;
+
 
 public interface BookService {
 

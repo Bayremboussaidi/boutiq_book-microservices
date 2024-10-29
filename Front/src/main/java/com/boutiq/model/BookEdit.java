@@ -1,4 +1,4 @@
-package com.boutiq.Front.model;
+package com.boutiq.model;
 
 public class BookEdit {
 

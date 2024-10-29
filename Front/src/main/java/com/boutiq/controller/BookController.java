@@ -1,4 +1,4 @@
-package com.boutiq.Front.controller;
+package com.boutiq.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -14,7 +14,8 @@ import org.springframework.web.client.RestTemplate;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import com.example.boutiq.model.Book;
+import com.boutiq.model.Book;
+import com.boutiq.model.BookEdit;
 
 @Controller
 public class BookController {

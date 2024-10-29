@@ -1,4 +1,4 @@
-package com.boutiq.Front.model;
+package com.boutiq.model;
 
 
 import java.util.Objects;

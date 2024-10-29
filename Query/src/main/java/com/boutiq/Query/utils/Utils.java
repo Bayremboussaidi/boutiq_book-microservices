@@ -1,13 +1,14 @@
 package com.boutiq.Query.utils;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.Query.model.Book;
-import com.example.Query.service.BookService;
-import com.example.Query.service.BookServiceImpl;
+import com.boutiq.Query.model.Book;
+import com.boutiq.Query.service.BookService;
+import com.boutiq.Query.service.BookServiceImpl;
 import com.google.gson.Gson;
-import com.rabbitmq.client.*;
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.ConnectionFactory;
+import com.rabbitmq.client.DeliverCallback;
 
 @Service
 public class Utils {

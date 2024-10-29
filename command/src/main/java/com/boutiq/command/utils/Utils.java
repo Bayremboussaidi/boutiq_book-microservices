@@ -2,9 +2,10 @@ package com.boutiq.command.utils;
 
 import org.springframework.stereotype.Service;
 
-import com.example.mdbspringboot.model.Book;
+import com.boutiq.command.model.Book;
 import com.google.gson.Gson;
-import com.rabbitmq.client.*;
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.ConnectionFactory;
 
 @Service
 public class Utils {

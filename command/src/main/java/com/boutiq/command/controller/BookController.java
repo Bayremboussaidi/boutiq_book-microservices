@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.mdbspringboot.model.Book;
-import com.example.mdbspringboot.repository.BookRepository;
-import com.example.mdbspringboot.utils.Utils;
+import com.boutiq.command.model.Book;
+import com.boutiq.command.repository.BookRepository;
+import com.boutiq.command.utils.Utils;
 
 @RestController
 @RequestMapping("books")
